@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building the application'
             }
         }
-        stage('Test') {
+        stage('Test for dev environment') {
             steps {
                 echo 'Testing the application'
             }
